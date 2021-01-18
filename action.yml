@@ -1,0 +1,5 @@
+name: Jekyll Build & Deploy
+description: 'Builds and deploys a Jekyll 4.x website to gh-pages branch.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
